@@ -2,6 +2,8 @@ import requests
 import bs4
 from bs4 import BeautifulSoup
 import csv
+import time
+import numpy 
 
 #This is the list that will hold the dictionary for each job
 listOfDict = []
@@ -67,6 +69,7 @@ def extract_job_title_from_result(soup):
 
         #Append this job to our list of jobs
         listOfDict.append(jobDict)
+        time.sleep(0.1*np.random.random()) # Time in seconds.
     return listOfDict
 
 if __name__ == '__main__':
