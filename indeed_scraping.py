@@ -32,7 +32,7 @@ def extract_people_info(divs):
               info["degree"] = span.text[2:]
         results.append(info)    
     
-        time.sleep(0.01 * np.random.random()) # Time in seconds.
+        time.sleep(0.5 * np.random.random()) # Time in seconds.
     return results
 
 
@@ -138,7 +138,7 @@ def extract_jobs_from_page(soup):
             continue
         
         job_obj_list.append(job_obj)
-        time.sleep(0.01 * np.random.random()) # Time in seconds.
+        time.sleep(0.5 * np.random.random()) # Time in seconds.
     return job_obj_list
 
 
