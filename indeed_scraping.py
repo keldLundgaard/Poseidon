@@ -142,36 +142,6 @@ def extract_jobs_from_page(soup):
     return job_obj_list
 
 
-
-#This function extracts Job data from a webpage
-def extract_job_title_from_result(soup):
-    listOfDict = []
-    for div in soup.find_all(name="div", attrs={"class":"row"}):
-        # Initiate empty object to hold data for a job
-        jobDict = {}
-
-        # Fetch Job Title
-        for a in div.find_all(name="a", attrs={"data-tn-element":"jobTitle"}):
-            jobDict["jobTitle"] = a["title"]
-
-        # Fetch Job Location
-        for span in div.find_all("span", attrs={"class": "location"}):
-          jobDict["location"] = span.text
-
-        # Fetch Company name
-        comps = div.findAll("span", attrs={"class": "company"})
-        for a in comps:
-            compStr = ''
-            compStr = a.text.replace(" ", "")
-            compStr = compStr.replace("\n", "")
-            jobDict["company"] = compStr
-
-        #Append this job to our list of jobs
-        listOfDict.append(jobDict)
-        time.sleep(0.01 * np.random.random()) # Time in seconds.
-    return listOfDict
-
-
 def get_demand_side_jobs(query):
     done_partitions = [
         fn.split('.tsv')[0] 
