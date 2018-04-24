@@ -11,7 +11,7 @@ We find the competitiveness of hiring for each city by combining number of relev
 ## Order to run notebooks 
 1. nun job_scraping.ipynb  -- scrape [indeed.com](https://www.indeed.com) for jobs
 2. run resume_scraping.ipynb -- scrape [indeed.com/resumes](https://www.indeed.com/resumes) for resumes
-3. run affortability.ipynb  -- scrape [numbeo.com](https://www.numbeo.com) for affortability statistics
+3. run affortability_scraping.ipynb  -- scrape [numbeo.com](https://www.numbeo.com) for affortability statistics
 4. run poseidon_score.ipynb  -- combine data to get Poseidon scores
 
 All code was written by Keld Lundgaard. 
