@@ -1,4 +1,9 @@
-beautifulsoup4 
-requests
-numpy
-cartopy
+beautifulsoup4==4.6.0
+matplotlib==2.2.2
+numpy==1.14.2
+requests==2.18.4
+scipy==1.0.1
+six==1.11.0
+tornado==5.0.2
+urllib3==1.22
+bokeh==0.12.15
