@@ -2,7 +2,7 @@
 
 Demo developed for the Citi Venture's Economic Mobility challenge at [MIT-FinTech 2018 hackathon](http://www.mitfintech.com/fintech-hackathon/), which took place April 20-22 at the MIT Media Lab. Our team was awarded the second prize. 
 
-www.keldlundgaard.com/poseidon_scores_cyber_security_USA.html
+[See demo of output for cyber+security here](www.keldlundgaard.com/poseidon_scores_cyber_security_USA.html)
 
 We find the competitiveness of hiring for each city by combining number of relevant jobs listed with number of resumes and an affortability factor. 
 
