@@ -18,4 +18,8 @@ We find the competitiveness of hiring for each city by combining number of relev
 3. run affortability_scraping.ipynb  -- to scrape [numbeo.com](https://www.numbeo.com) for affortability statistics
 4. run poseidon_score.ipynb  -- to get Poseidon scores for cities and metropoletan areas. 
 
+
+## Acknowledgement:
 All code was written by Keld Lundgaard. 
+
+Scoping and ideation was done with: Cyril Blank and Danny Fooba 
