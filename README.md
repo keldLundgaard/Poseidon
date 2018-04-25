@@ -14,6 +14,6 @@ We find the competitiveness of hiring for each city by combining number of relev
 1. nun job_scraping.ipynb  -- to scrape [indeed.com](https://www.indeed.com) for jobs
 2. run resume_scraping.ipynb -- to scrape [indeed.com/resumes](https://www.indeed.com/resumes) for resumes
 3. run affortability_scraping.ipynb  -- to scrape [numbeo.com](https://www.numbeo.com) for affortability statistics
-4. run poseidon_score.ipynb  -- download metropoletan area data and combine data to get Poseidon scores for cities and metropoletan areas. 
+4. run poseidon_score.ipynb  -- to get Poseidon scores for cities and metropoletan areas. 
 
 All code was written by Keld Lundgaard. 
