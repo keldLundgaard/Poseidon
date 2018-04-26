@@ -22,4 +22,4 @@ We find the competitiveness of hiring for each city by combining number of relev
 ## Acknowledgement:
 All code was written by Keld Lundgaard. 
 
-Scoping and ideation was done with: Cyril Blank and Danny Fooba 
+Scoping and ideation was done with Cyril Blank and Danny Fooba.
