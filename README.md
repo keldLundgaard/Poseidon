@@ -18,6 +18,6 @@ We find the competitiveness of hiring for each city by combining number of relev
 4. run poseidon_score.ipynb  -- to get Poseidon scores for cities and metropolitan areas. 
 
 ## Acknowledgement:
-Scoping and ideation was done with Cyril Blank and Danny Fooba.
+Scoping, ideation, and analysis was done in collaboration with Cyril Blank and Danny Fooba.
 
 All code was written by Keld Lundgaard. 
