@@ -5,5 +5,5 @@ requests==2.18.4
 scipy==1.0.1
 six==1.11.0
 tornado==5.0.2
-urllib3==1.22
+urllib3==1.26.5
 bokeh==0.12.15
